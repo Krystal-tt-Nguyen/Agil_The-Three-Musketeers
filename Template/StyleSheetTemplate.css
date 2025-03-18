@@ -1,0 +1,25 @@
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+  }
+  
+header {      
+    background-color: #E9EDC9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.5%;
+  }
+footer{    
+    background-color: #FAEDCD;
+    text-align: center;
+    padding: 0.5%;
+}
+.margin{
+    margin: 0.5%;
+}
+
+main{
+    background-color: #FEFAE0;
+}
