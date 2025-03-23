@@ -1,0 +1,22 @@
+#group-photo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    margin: 1em;
+}
+
+
+.header {
+    text-align: center;
+    color: #D4A373;
+}
+
+body {
+    background-color: #FEFAE0;
+}
+
+.line {
+    border: 1.5px solid #D4A373;
+}
+
