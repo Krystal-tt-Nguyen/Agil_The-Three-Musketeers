@@ -1,10 +1,11 @@
-h1, h5 {
+#our-services-title h1, #comments-section-title h1, 
+#contact-us h2, h5, h6 {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-weight: 600;
     color: #654321;
 }
 
-p {
+p, label {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #333;
@@ -97,7 +98,51 @@ ul {
     transition: background-color 0.3s ease, opacity 0.3s ease;
 }
 
-.view-details-btn:hover {
+.view-details-btn:hover, .send-message:hover {
     background-color: #233c03;
     opacity: 0.8;
+}
+
+.carousel-inner {
+    width: 100%;          
+    height: auto;        
+}
+
+.carousel-item { 
+    margin-left: 20%;
+}
+
+.comment-content {
+    color: black;        
+    width: 60%;           
+    padding: 20px;         
+}
+
+.comment-content p {
+    font-style: oblique;     
+}
+
+.comments-client {
+    font-style: oblique;  
+    margin-top: 15px;   
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #233c03; 
+}
+
+.contact-us-container {
+    background-color:rgba(204, 213, 174, 0.1);
+}
+
+.lead {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
+.send-message{
+    background-color: #8C9F6D;
+    border: none;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
 }
