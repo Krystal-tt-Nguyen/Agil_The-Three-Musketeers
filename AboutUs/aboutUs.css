@@ -6,15 +6,22 @@
     margin: 1em;
 }
 
+.card-img-top {
+    width: auto; /* auto*/
+    /* max-width: 300px; */
+    max-height: 380px;
+    height: auto; /*400px*/
+    object-fit: cover;
+    margin-left: 50px; 
+    margin-right: 50px;
+}
 
 .header {
     text-align: center;
     color: #D4A373;
 }
 
-body {
-    background-color: #FEFAE0;
-}
+
 
 .line {
     border: 1.5px solid #D4A373;

@@ -3,7 +3,6 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
-
   }
   
 header {      
@@ -11,6 +10,7 @@ header {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0.5%;
   }
+  
 footer{    
     background-color: #FAEDCD;
     text-align: center;
